@@ -32,6 +32,14 @@ int main()
 			printf("enter the value of a[%d][%d] :"n,j)
 		}
 	}
+	for(n=0; n<r; n++)
+	{
+		for(j=0; j<c; j++)
+		{
+			sum=sum+a[n][j];
+		}	
+	}
+	printf("sum is %d",sum);
 
 	return 0;	
 }
